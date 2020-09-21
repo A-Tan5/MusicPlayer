@@ -7,23 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD24EE3224EC0CAF00771D32 /* SongsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD24EE3124EC0CAF00771D32 /* SongsTableViewCell.swift */; };
+		DD69C8F42515FBB1000CF773 /* AVPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD69C8F32515FBB1000CF773 /* AVPlayerController.swift */; };
+		DD93F3C524ED3563007CFB5B /* VolumeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD93F3C424ED3563007CFB5B /* VolumeSlider.swift */; };
 		DDBC515D24CE9648004D057B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBC515C24CE9648004D057B /* AppDelegate.swift */; };
 		DDBC515F24CE9648004D057B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBC515E24CE9648004D057B /* SceneDelegate.swift */; };
-		DDBC516124CE9648004D057B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBC516024CE9648004D057B /* ViewController.swift */; };
+		DDBC516124CE9648004D057B /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBC516024CE9648004D057B /* MusicPlayerViewController.swift */; };
 		DDBC516424CE9648004D057B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBC516224CE9648004D057B /* Main.storyboard */; };
 		DDBC516624CE964D004D057B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBC516524CE964D004D057B /* Assets.xcassets */; };
 		DDBC516924CE964D004D057B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDBC516724CE964D004D057B /* LaunchScreen.storyboard */; };
+		DDBDAB8424D70DC500348039 /* 抓狂.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDBDAB7A24D70DB800348039 /* 抓狂.mp3 */; };
+		DDBDAB8524D70DC500348039 /* 慶端陽.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDBDAB7B24D70DB900348039 /* 慶端陽.mp3 */; };
+		DDBDAB8624D70DC500348039 /* 播種.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDBDAB7C24D70DBB00348039 /* 播種.mp3 */; };
+		DDBDAB8724D70DC500348039 /* 計程車.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDBDAB7D24D70DBC00348039 /* 計程車.mp3 */; };
+		DDBDAB8824D70DC500348039 /* 台北帝國.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDBDAB7E24D70DBE00348039 /* 台北帝國.mp3 */; };
+		DDBDAB8A24D70DC500348039 /* 傷心無話.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDBDAB8024D70DC100348039 /* 傷心無話.mp3 */; };
+		DDBDAB8B24D70DC500348039 /* 民主阿草.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDBDAB8124D70DC300348039 /* 民主阿草.mp3 */; };
+		DDBDAB8C24D70DC500348039 /* 新莊街.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDBDAB8224D70DC400348039 /* 新莊街.mp3 */; };
+		DDBDAB8D24D70DC500348039 /* 阿爸的話.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DDBDAB8324D70DC500348039 /* 阿爸的話.mp3 */; };
+		DDBDAB8F24D7C3EB00348039 /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBDAB8E24D7C3EB00348039 /* MusicModel.swift */; };
+		DDFEC68D2511E4AB00658BEE /* SegmentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFEC68C2511E4AB00658BEE /* SegmentTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DD24EE3124EC0CAF00771D32 /* SongsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsTableViewCell.swift; sourceTree = "<group>"; };
+		DD69C8F32515FBB1000CF773 /* AVPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerController.swift; sourceTree = "<group>"; };
+		DD93F3C424ED3563007CFB5B /* VolumeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeSlider.swift; sourceTree = "<group>"; };
 		DDBC515924CE9648004D057B /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDBC515C24CE9648004D057B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDBC515E24CE9648004D057B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DDBC516024CE9648004D057B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDBC516024CE9648004D057B /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
 		DDBC516324CE9648004D057B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDBC516524CE964D004D057B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDBC516824CE964D004D057B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDBC516A24CE964D004D057B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDBDAB7A24D70DB800348039 /* 抓狂.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "抓狂.mp3"; sourceTree = "<group>"; };
+		DDBDAB7B24D70DB900348039 /* 慶端陽.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "慶端陽.mp3"; sourceTree = "<group>"; };
+		DDBDAB7C24D70DBB00348039 /* 播種.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "播種.mp3"; sourceTree = "<group>"; };
+		DDBDAB7D24D70DBC00348039 /* 計程車.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "計程車.mp3"; sourceTree = "<group>"; };
+		DDBDAB7E24D70DBE00348039 /* 台北帝國.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "台北帝國.mp3"; sourceTree = "<group>"; };
+		DDBDAB8024D70DC100348039 /* 傷心無話.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "傷心無話.mp3"; sourceTree = "<group>"; };
+		DDBDAB8124D70DC300348039 /* 民主阿草.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "民主阿草.mp3"; sourceTree = "<group>"; };
+		DDBDAB8224D70DC400348039 /* 新莊街.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "新莊街.mp3"; sourceTree = "<group>"; };
+		DDBDAB8324D70DC500348039 /* 阿爸的話.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "阿爸的話.mp3"; sourceTree = "<group>"; };
+		DDBDAB8E24D7C3EB00348039 /* MusicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
+		DDFEC68C2511E4AB00658BEE /* SegmentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +65,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD2F5384251769390051F098 /* Other Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD69C8F32515FBB1000CF773 /* AVPlayerController.swift */,
+			);
+			path = "Other Controller";
+			sourceTree = "<group>";
+		};
+		DD2F5385251769650051F098 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDBDAB8E24D7C3EB00348039 /* MusicModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD2F5386251769770051F098 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DDFEC68C2511E4AB00658BEE /* SegmentTableViewController.swift */,
+				DDBC516024CE9648004D057B /* MusicPlayerViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		DD2F5387251769900051F098 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD93F3C424ED3563007CFB5B /* VolumeSlider.swift */,
+				DD24EE3124EC0CAF00771D32 /* SongsTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		DDBC515024CE9648004D057B = {
 			isa = PBXGroup;
 			children = (
+				DDBDAB7924D70D9D00348039 /* Music */,
 				DDBC515B24CE9648004D057B /* MusicPlayer */,
 				DDBC515A24CE9648004D057B /* Products */,
 			);
@@ -58,13 +121,32 @@
 			children = (
 				DDBC515C24CE9648004D057B /* AppDelegate.swift */,
 				DDBC515E24CE9648004D057B /* SceneDelegate.swift */,
-				DDBC516024CE9648004D057B /* ViewController.swift */,
+				DD2F5387251769900051F098 /* View */,
+				DD2F5386251769770051F098 /* View Controller */,
+				DD2F5385251769650051F098 /* Model */,
+				DD2F5384251769390051F098 /* Other Controller */,
 				DDBC516224CE9648004D057B /* Main.storyboard */,
-				DDBC516524CE964D004D057B /* Assets.xcassets */,
 				DDBC516724CE964D004D057B /* LaunchScreen.storyboard */,
+				DDBC516524CE964D004D057B /* Assets.xcassets */,
 				DDBC516A24CE964D004D057B /* Info.plist */,
 			);
 			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		DDBDAB7924D70D9D00348039 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				DDBDAB7E24D70DBE00348039 /* 台北帝國.mp3 */,
+				DDBDAB7A24D70DB800348039 /* 抓狂.mp3 */,
+				DDBDAB8024D70DC100348039 /* 傷心無話.mp3 */,
+				DDBDAB8324D70DC500348039 /* 阿爸的話.mp3 */,
+				DDBDAB7B24D70DB900348039 /* 慶端陽.mp3 */,
+				DDBDAB7D24D70DBC00348039 /* 計程車.mp3 */,
+				DDBDAB8124D70DC300348039 /* 民主阿草.mp3 */,
+				DDBDAB8224D70DC400348039 /* 新莊街.mp3 */,
+				DDBDAB7C24D70DBB00348039 /* 播種.mp3 */,
+			);
+			path = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +207,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDBDAB8D24D70DC500348039 /* 阿爸的話.mp3 in Resources */,
 				DDBC516924CE964D004D057B /* LaunchScreen.storyboard in Resources */,
+				DDBDAB8C24D70DC500348039 /* 新莊街.mp3 in Resources */,
+				DDBDAB8824D70DC500348039 /* 台北帝國.mp3 in Resources */,
 				DDBC516624CE964D004D057B /* Assets.xcassets in Resources */,
+				DDBDAB8424D70DC500348039 /* 抓狂.mp3 in Resources */,
+				DDBDAB8B24D70DC500348039 /* 民主阿草.mp3 in Resources */,
 				DDBC516424CE9648004D057B /* Main.storyboard in Resources */,
+				DDBDAB8724D70DC500348039 /* 計程車.mp3 in Resources */,
+				DDBDAB8A24D70DC500348039 /* 傷心無話.mp3 in Resources */,
+				DDBDAB8524D70DC500348039 /* 慶端陽.mp3 in Resources */,
+				DDBDAB8624D70DC500348039 /* 播種.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +229,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDBC516124CE9648004D057B /* ViewController.swift in Sources */,
+				DD24EE3224EC0CAF00771D32 /* SongsTableViewCell.swift in Sources */,
+				DD93F3C524ED3563007CFB5B /* VolumeSlider.swift in Sources */,
+				DD69C8F42515FBB1000CF773 /* AVPlayerController.swift in Sources */,
+				DDFEC68D2511E4AB00658BEE /* SegmentTableViewController.swift in Sources */,
+				DDBC516124CE9648004D057B /* MusicPlayerViewController.swift in Sources */,
+				DDBDAB8F24D7C3EB00348039 /* MusicModel.swift in Sources */,
 				DDBC515D24CE9648004D057B /* AppDelegate.swift in Sources */,
 				DDBC515F24CE9648004D057B /* SceneDelegate.swift in Sources */,
 			);
@@ -291,7 +387,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.remytan.MusicPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tantsunsin.MusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +405,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.remytan.MusicPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tantsunsin.MusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
